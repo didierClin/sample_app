@@ -16,9 +16,10 @@ group :development, :test do
   gem 'byebug'
   gem 'better_errors'
   gem 'pry'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
+  gem 'web-console',  group: :development
 
 group :test do
   gem 'minitest-reporters', '1.0.5'
