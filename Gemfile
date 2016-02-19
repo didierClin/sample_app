@@ -11,15 +11,15 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'capistrano'
-gem 'capistrano-bundler'
-gem 'capistrano-rails'
-
-# Add this if you're using rvm
-gem 'capistrano-rvm', github: "capistrano/rvm"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+
+  # Add this if you're using rvm
+  gem 'capistrano-rvm', github: "capistrano/rvm" 
   gem 'sqlite3'
   gem 'byebug'
   gem 'better_errors'
