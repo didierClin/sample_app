@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.0'
+gem 'bcrypt'
 gem 'bootstrap-sass'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -19,7 +20,7 @@ group :development, :test do
   gem 'capistrano-rails'
 
   # Add this if you're using rvm
-  gem 'capistrano-rvm', github: "capistrano/rvm" 
+  gem 'capistrano-rvm', github: "capistrano/rvm"
   gem 'sqlite3'
   gem 'byebug'
   gem 'better_errors'
